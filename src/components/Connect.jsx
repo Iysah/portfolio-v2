@@ -7,19 +7,19 @@ import { SectionWrapper } from '../hoc'
 const socialLinks = [
     {
         name: '👾 GITHUB',
-        url: '',
+        url: 'https://github.com/Iysah',
     },
     {
-        name: '🐦 TWITTER',
-        url: '',
+        name: '🐦 X (TWITTER)',
+        url: 'https://twitter.com/d_product_dude',
     },
     {
         name: '💼 LINKEDIN',
-        url: '',
+        url: 'https://www.linkedin.com/in/yusuf-iysah/',
     },
     {
         name: '📸 INSTAGRAM',
-        url: '',
+        url: 'https://www.instagram.com/iysahyusuf/',
     },
     {
         name: '@ THREADS',
