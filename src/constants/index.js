@@ -35,8 +35,8 @@ import {
       title: "Work",
     },
     {
-      id: "Hire me",
-      title: "Contact",
+      id: "connect",
+      title: "Connect",
     },
   ];
   

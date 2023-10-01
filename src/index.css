@@ -44,6 +44,15 @@
   display: inline-block;
 }
 
+.hire-button {
+  background: #6BC5F8;
+  background: linear-gradient(to top, #6BC5F8 0%, #cf59e6 100%);
+}
+.hire-button:hover{
+  background: #6BC5F8;
+  background: linear-gradient(to top right, #6BC5F8 0%, #CF59E6 100%);
+}
+
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);

@@ -57,7 +57,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <h3 className={`${styles.sectionHeadText}`}><span className='section__gradient'>Yeah, I work hard </span> 💼 </h3>
-        <p className='text-secondary font-[16px] mt-4 leading-[30px]'>Each project is unique. Here are some of my recent works..</p>
+        <p className='text-secondary font-[16px] mt-4 leading-[30px]'>Each project is unique. Here are some of my recent works.</p>
       </motion.div>
 
       <div className='my-20 flex flex-wrap gap-7'>

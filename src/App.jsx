@@ -11,7 +11,8 @@ import {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Connect
 } from './components'
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Contact />
           <StarsCanvas />
         </div>
+        <Connect />
       </div>
     </BrowserRouter>
   )

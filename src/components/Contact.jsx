@@ -1,11 +1,15 @@
 import React, { useRef, useState } from 'react'
-import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
 import emailjs from '@emailjs/browser'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn, textVariant } from '../utils/motion'
+
+
+// template_xvm6c9x
+// service_em26ovf
+// 4N4rfaWPW0TgP-s5A
 
 const Contact = () => {
   const formRef = useRef()
@@ -17,10 +21,41 @@ const Contact = () => {
   const [loading, setLoading] = useState(false)
 
   const handleChange = (e) => {
+    const {name, value} = e.target;
 
+    setForm({ ...form, [name]: value })
   }
   const handleSumbit = (e) => {
+    e.preventDefault();
+    setLoading(true)
 
+    emailjs.send(
+      'service_em26ovf',
+      'template_xvm6c9x',
+      {
+        from_name: form.name,
+        to_name: 'Iysah Yusuf',
+        from_email: form.email,
+        to_email: 'yusufiysah@gmail.com',
+        message: form.message,
+      },
+      '4N4rfaWPW0TgP-s5A'
+    ).then(() => {
+      setLoading(false);
+      alert('Thank you. I will get back to you as soon as possible');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      }, (error)  => {
+        setLoading(false)
+
+        console.log(error);
+        alert('Something went wrong, Please try again!')
+      }
+      )
+    })
   }
 
   return (
@@ -70,7 +105,7 @@ const Contact = () => {
               <span className='text-white font-medium mb-4'>What's the Idea about?</span>
               <textarea 
               rows={'7'}
-              name='name'
+              name='message'
               value={form.message}
               onChange={handleChange}
               placeholder={`Kindly tell me about the idea in detail. What's your budget?, What's the timeline?`}

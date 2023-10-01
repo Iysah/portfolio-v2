@@ -33,6 +33,10 @@ const Navbar = () => {
           ))}
         </ul>
 
+        <div className=''>
+          <a href='#contact' className='text-white hover:text-white cursor-pointer text-[18px] w-[65px] rounded-3xl hire-button border-secondary px-5 py-3' >Hire Me</a>
+        </div>
+
         {/* icons */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={ toggle ? close : menu} 
