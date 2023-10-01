@@ -33,7 +33,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className=''>
+        <div className='hidden md:block'>
           <a href='#contact' className='text-white hover:text-white cursor-pointer text-[18px] w-[65px] rounded-3xl hire-button border-secondary px-5 py-3' >Hire Me</a>
         </div>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
           />
 
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient top-20 right-0 mx-4 my-2 min-w-[240px] z-10 rounded-lg`}>
+          <div className={`${!toggle ? 'hidden' : 'flex'} flex-col p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[240px] z-10 rounded-lg`}>
 
             <ul className='list-none flex flex-col gap-4 items-start justify-end'>
               {navLinks.map((link) => (
@@ -60,6 +60,10 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+
+            <div className='mt-5'>
+              <a href='#contact' className='text-white hover:text-white cursor-pointer text-[16px] w-[40px] rounded-2xl hire-button border-secondary px-3 py-1' >Hire Me</a>
+            </div>
           </div>
 
         </div>
