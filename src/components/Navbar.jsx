@@ -18,7 +18,7 @@ const Navbar = () => {
           window.scrollTo(0, 0) 
         }} 
         to={'/'} >
-          <img src={logo} alt='Product Dude' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='Product Dude' className='w-9 h-9 object-contain rounded-md' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Iysah &nbsp; <span className='sm:block hidden'>| Product Dude</span></p>
         </Link>
 
