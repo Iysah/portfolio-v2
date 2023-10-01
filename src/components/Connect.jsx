@@ -21,10 +21,6 @@ const socialLinks = [
         name: '📸 INSTAGRAM',
         url: 'https://www.instagram.com/iysahyusuf/',
     },
-    {
-        name: '@ THREADS',
-        url: '',
-    },
 ]
 const Connect = () => {
   return (

@@ -14,7 +14,7 @@ const FeedbackCard =({ testimonial, designation,  name, company, image }) => {
       {/* <p className='text-white font-black text-[48px]'>"</p> */}
 
       <div className='mt-1'>
-        <p className='text-white tracking-wider text-[16px] font-rubik line-clamp-4'>{testimonial}</p>
+        <p className='text-white tracking-wider text-[16px] font-rubik line-clamp-4 sm:line-clamp-5'>{testimonial}</p>
 
         <div className='mt-7 flex justify-between items-center gap-1'>
           <div className='flex flex-1 flex-col'>

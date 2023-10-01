@@ -61,7 +61,7 @@ const Navbar = () => {
               ))}
             </ul>
 
-            <div className='mt-5'>
+            <div className='mt-5' onClick={() => setToggle(!toggle)}>
               <a href='#contact' className='text-white hover:text-white cursor-pointer text-[16px] w-[40px] rounded-2xl hire-button border-secondary px-3 py-1' >Hire Me</a>
             </div>
           </div>
