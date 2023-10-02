@@ -8,34 +8,35 @@ import {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
   StarsCanvas,
   Connect
 } from './components'
+import PreLoader from './components/preloader/preloader'
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
-          <Hero />
+    <>
+      {/* <PreLoader /> */}
+      <BrowserRouter>
+        <div className="relative z-0 bg-primary">
+          <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+            <Navbar />
+            <Hero />
+          </div>
+          <About />
+          <Experience />
+          <Tech />
+          <Works />
+          <Feedbacks />
+          <div className='relative z-0'>
+            <Contact />
+            <StarsCanvas />
+          </div>
+          <Connect />
         </div>
-        <About />
-        <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
-        </div>
-        <Connect />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </>
   )
 }
 
