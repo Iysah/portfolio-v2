@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    tanta,
+    tequi,
   } from "../assets";
   
   export const navLinks = [
@@ -116,11 +118,24 @@ import {
   
   const experiences = [
     {
+      title: "Code Mentor",
+      company_name: "Teqia",
+      icon: tequi,
+      iconBg: "#E6DEDD",
+      date: "Jun 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "Lead Frontend Developer",
       company_name: "Tanta Innovative Ltd",
-      icon: starbucks,
+      icon: tanta,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - August 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

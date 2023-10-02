@@ -23,6 +23,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import tequi from "./company/teqia.jpg"
+import tanta from "./company/tanta.jpeg"
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -55,6 +57,8 @@ export {
   typescript,
   threejs,
   meta,
+  tequi,
+  tanta,
   shopify,
   starbucks,
   tesla,
