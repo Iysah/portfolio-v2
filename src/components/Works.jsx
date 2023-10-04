@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 import { github, world } from '../assets'
  
 
-const ProjectCard = ({ name, index, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ name, index, description, tags, image, live_url_link, source_code_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75 )}>
       <Tilt
@@ -31,7 +31,7 @@ const ProjectCard = ({ name, index, description, tags, image, source_code_link }
             </div>
 
             <div 
-            onClick={() => window.open(source_code_link, '_blank')}
+            onClick={() => window.open(live_url_link, '_blank')}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img src={world} alt={'website link'} className='h-1/2 w-1/2 object-contain' />

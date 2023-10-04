@@ -231,10 +231,11 @@ import {
         },
       ],
       image: techy,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Iysah/techyscholar-edu-app",
+      live_url_link: "",
     },
     {
-      name: "My Genie",
+      name: "Genie",
       description:
         "Web-based state-of-the-art AI SaaS Platform with five AI tools. This AI tools are image generation, video generation, music generation, code generation and conversation. Powered by the Next.js, this platform is not only be efficient but also user-centric.",
       tags: [
@@ -260,7 +261,8 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Iysah/genie-ai",
+      live_url_link: "",
     },
     {
       name: "Medi+ Care",
@@ -286,6 +288,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      live_url_link: "",
     },
   ];
   
