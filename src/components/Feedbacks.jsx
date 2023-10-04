@@ -45,11 +45,11 @@ const Feedbacks = () => {
         ))}
        </Marquee>
 
-       <Marquee direction='right' >
+       {/* <Marquee direction='right' >
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
-       </Marquee>
+       </Marquee> */}
       </div>
     </div>
   )

@@ -25,6 +25,7 @@ import {
     threejs,
     tanta,
     tequi,
+    techy,
   } from "../assets";
   
   export const navLinks = [
@@ -174,89 +175,113 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Iysah proved me wrong.",
+      name: "Abd Hafeez Alabi",
+      designation: "CEO",
+      company: "Provarex",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Iysah does.",
+      name: "Abd Baasit Salaudeen",
+      designation: "Founder",
+      company: "TechyScholar Ng",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Iysah optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Abdullahi Alabi",
+      designation: "CEO & Founder",
+      company: "Theraswift-rx",
+      image: "https://randomuser.me/api/portraits/men/6.jpg",
+    },
+    {
+      testimonial:
+        "Iysah is an excellent Front Developer coupled with his UI/UX experience, He always seeks to bring more value to every project.",
+      name: "Aniebiet Aaron",
+      designation: "Software Developer",
+      company: "OWATTS",
+      image: "https://randomuser.me/api/portraits/men/3.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TechyScholar App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Mobile-app platform that allows users to create account and also search, view, and monitor their courses. And it also allows users to watch this courses on the platform. This platform also filters courses based on skills and complexity",
       tags: [
         {
-          name: "react",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "expo",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "strapi",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "mysql",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: techy,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "My Genie",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web-based state-of-the-art AI SaaS Platform with five AI tools. This AI tools are image generation, video generation, music generation, code generation and conversation. Powered by the Next.js, this platform is not only be efficient but also user-centric.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "prisma",
           color: "pink-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "clerk",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Medi+ Care",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "blue-text-gradient",
         },
       ],
       image: tripguide,

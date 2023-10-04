@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>transforming ideas into real life <span className='header__hero--heading-gradient' >products</span> is my true passion.</h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Transforming ideas into real life <span className='header__hero--heading-gradient' >products</span> is my true passion.</h1>
         </div>
       </div>
 
