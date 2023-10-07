@@ -125,10 +125,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2023 - Present",
       points: [
-        "provided guidance, support, and mentorship to students or learners. assist learners in understanding and mastering coding concepts, programming languages, and best practices.",
+        "provided guidance, support, and mentorship to students or learners. assist learners in understanding & mastering coding concepts, programming languages, and best practices.",
         "engaged in one-on-one or small group sessions with students. Answer questions, review code, and help learners overcome specific challenges they encounter during their learning journey.",
         "offered career advice and insights into the tech industry. assisted students with resume building, interview preparation, and job search strategies.",
-        "gave motivation students to stay engaged and persistent in their learning. Shared my own experiences and success stories to encourage them.",
       ],
     },
     {
@@ -144,8 +143,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
         "Successfully led the development and launch of 5  innovative e-commerce platform, resulting in a 40% increase in user engagement, 60% in sales and 24/7  customer support.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Orchestrated the frontend team's efforts in the revamping and deployment of the company portfolio website, contributing to a surprising number of engagements, visits and consultation. This result in 45% growth in website traffic.",
-        "Mentored 5 interns, guiding them in their contributions to over 5 projects, while putting  them through latest frontend technologies and aiding in their successful transition to full-time roles. This mentorship led to enhanced team productivity and knowledge sharing.",
+       
       ],
     },
     {
@@ -159,8 +157,8 @@ import {
         "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implemented responsive design and ensuring cross-browser compatibility.",
         "Participated in code reviews and providing constructive feedback to other developers.",
-        "Wrote functional requirement documents and guides",
-        "Created HTML email templates for email marketing campaigns",
+        "Conducted code reviews and provided feedback to team members to ensure best practices were followed.",
+        
       ],
     },
     {
@@ -170,10 +168,9 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created effective instructional materials, including lesson plans, learning resources, and assessments. I employed instructional design principles to enhance the learning experience.",
+        "Monitored and evaluated the quality of teaching and learning within the organization. This includes assessing instructors, course materials, and overall program effectiveness",
+        "Oversaw a team of instructors, mentors, and support staff. Also coordinated training schedules, assignments, and professional development for their team.",
       ],
     },
   ];
