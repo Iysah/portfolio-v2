@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import techy from './education-app.png'
+import satsswap from './satsswap.png'
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   jobit,
   tripguide,
   techy,
+  satsswap,
 };

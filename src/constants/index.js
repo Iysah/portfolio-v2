@@ -26,6 +26,7 @@ import {
     tanta,
     tequi,
     techy,
+    satsswap,
   } from "../assets";
   
   export const navLinks = [
@@ -137,9 +138,7 @@ import {
       iconBg: "#383E56",
       date: "Feb 2023 - August 2023",
       points: [
-        "Developed and maintained web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
         "Successfully led the development and launch of 5  innovative e-commerce platform, resulting in a 40% increase in user engagement, 60% in sales and 24/7  customer support.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,7 +154,6 @@ import {
       points: [
         "Developed and maintained web applications using React.js and other related technologies.",
         "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implemented responsive design and ensuring cross-browser compatibility.",
         "Participated in code reviews and providing constructive feedback to other developers.",
         "Conducted code reviews and provided feedback to team members to ensure best practices were followed.",
         
@@ -212,6 +210,32 @@ import {
   
   const projects = [
     {
+      name: "SatsSwap",
+      description:
+        "Satswap is a revolutionary hybrid cryptocurrency exchange, specifically designed to optimize trading of Bitcoin Ordinals (BRC20 tokens) and other crytocurrencies. The next-gen hybrid exchange for BRC20 Bitcoin Ordinals",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "chakraui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: satsswap,
+      source_code_link: "https://github.com/Iysah",
+      live_url_link: "https://www.satsswap.io/",
+    },
+    {
       name: "TechyScholar App",
       description:
         "Mobile-app platform that allows users to create account and also search, view, and monitor their courses. And it also allows users to watch this courses on the platform. This platform also filters courses based on skills and complexity",
@@ -267,32 +291,7 @@ import {
       source_code_link: "https://github.com/Iysah/genie-ai",
       live_url_link: "",
     },
-    {
-      name: "Medi+ Care",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "stripe",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      live_url_link: "",
-    },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
