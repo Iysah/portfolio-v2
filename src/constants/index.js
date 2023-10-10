@@ -140,7 +140,7 @@ import {
       points: [
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-        "Successfully led the development and launch of 5  innovative e-commerce platform, resulting in a 40% increase in user engagement, 60% in sales and 24/7  customer support.",
+        "Successfully led the development and launch of 5  innovative e-commerce platform, resulting in a 10% increase in user engagement, 25% in sales and 24/7  customer support.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
        
       ],
