@@ -35,6 +35,7 @@ const Connect = () => {
                 {socialLinks.map((item, index) => (
                     <a href={item.url} target='_blank' key={index} className='text-secondary text-[18px] font-bold uppercase mr-4 leading-[30px]' >{item.name}</a>
                 ))}
+                <a rel="me" href="https://mastodon.social/@yusufiysah">Mastodon</a>
             </span>
         </div>
     </>
