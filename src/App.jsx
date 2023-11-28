@@ -1,17 +1,6 @@
-import { BrowserRouter } from 'react-router-dom'
-import {
-  Hero,
-  Navbar,
-  About,
-  Tech,
-  Experience,
-  Works,
-  Feedbacks,
-  Contact,
-  StarsCanvas,
-  Connect
-} from './components'
-import PreLoader from './components/preloader/preloader'
+import { BrowserRouter, Routes, Route, useParams, useLocation } from "react-router-dom";
+import HomePage from "./home";
+import Podcast from "./podcast";
 
 function App() {
 
@@ -19,22 +8,11 @@ function App() {
     <>
       {/* <PreLoader /> */}
       <BrowserRouter>
-        <div className="relative z-0 bg-primary">
-          <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-            <Navbar />
-            <Hero />
-          </div>
-          <About />
-          <Experience />
-          <Tech />
-          <Works />
-          <Feedbacks />
-          <div className='relative z-0'>
-            <Contact />
-            <StarsCanvas />
-          </div>
-          <Connect />
-        </div>
+        <Routes>
+            <Route index element={<HomePage />} />
+            <Route path="/podcast" element={<Podcast />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
+          </Routes>
       </BrowserRouter>
     </>
   )

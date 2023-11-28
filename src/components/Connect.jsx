@@ -18,9 +18,13 @@ const socialLinks = [
         url: 'https://www.linkedin.com/in/yusuf-iysah/',
     },
     {
-        name: '📸 INSTAGRAM',
-        url: 'https://www.instagram.com/iysahyusuf/',
+        name: '📹 YOUTUBE',
+        url: 'https://youtube.com/@d_product_dude?si=3NuOLn80Ot4EaIBA',
     },
+    {
+        name: '🎙️ SPOTIFY',
+        url: 'https://podcasters.spotify.com/pod/show/the-product-dude'
+    }
 ]
 const Connect = () => {
   return (
