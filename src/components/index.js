@@ -8,6 +8,8 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Connect from './Connect';
+import NewArrivals from './Arrivals';
+import ProductList from './ProductList';
 
 export {
   Hero,
@@ -23,4 +25,6 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Connect,
+  NewArrivals,
+  ProductList,
 }

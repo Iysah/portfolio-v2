@@ -9,7 +9,8 @@ import {
     Feedbacks,
     Contact,
     StarsCanvas,
-    Connect
+    Connect,
+    NewArrivals
   } from './components'
 
 export default function HomePage() {
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Tech />
         <Works />
         <Feedbacks />
+        <NewArrivals />
         <div className='relative z-0'>
             <Contact />
             <StarsCanvas />

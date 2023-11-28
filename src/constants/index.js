@@ -39,8 +39,8 @@ import {
       title: "Work",
     },
     {
-      id: "#connect",
-      title: "Connect",
+      id: "/shop",
+      title: "Shop",
     },
     {
       id: "/podcast",
@@ -54,7 +54,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {

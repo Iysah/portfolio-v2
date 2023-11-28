@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
 
         <div className='hidden md:block'>
-          <a href='#contact' className='text-white hover:text-white cursor-pointer text-[18px] w-[65px] rounded-3xl hire-button border-secondary px-5 py-3' >Hire Me</a>
+          <a href='#contact' className='inline-block rounded-md border-secondary hire-button  px-8 py-3 text-center font-medium text-white hover:bg-indigo-700'>Hire Me</a>
         </div>
 
         {/* icons */}
@@ -62,7 +62,7 @@ const Navbar = () => {
             </ul>
 
             <div className='mt-5' onClick={() => setToggle(!toggle)}>
-              <a href='#contact' className='text-white hover:text-white cursor-pointer text-[16px] w-[40px] rounded-2xl hire-button border-secondary px-3 py-1' >Hire Me</a>
+              <a href='#contact' className="rounded-md border-secondary hire-button  cursor-pointer text-[16px] w-[40px] px-3 py-1 hire-button border-secondar text-white hover:bg-indigo-700">Hire Me</a>
             </div>
           </div>
 
