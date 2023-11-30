@@ -10,6 +10,8 @@ import Contact from './Contact';
 import Connect from './Connect';
 import NewArrivals from './Arrivals';
 import ProductList from './ProductList';
+import ProductDetails from './ProductDetails';
+import Related from './Related';
 
 export {
   Hero,
@@ -27,4 +29,6 @@ export {
   Connect,
   NewArrivals,
   ProductList,
+  ProductDetails,
+  Related,
 }

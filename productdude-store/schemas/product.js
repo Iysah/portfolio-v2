@@ -5,7 +5,7 @@ export default {
     fields: [
         {
             name: 'image',
-            title: 'Image',
+            title: 'Product Images',
             type: 'array',
             of: [{ type: 'image' }],
             options: {
@@ -14,12 +14,17 @@ export default {
         },
         {
             name: 'name',
-            title: 'Name',
+            title: 'Name of Product',
+            type: 'string',
+        },
+        {
+            name: 'color',
+            title: 'Color',
             type: 'string',
         },
         {
             name: 'slug',
-            title: 'Slug',
+            title: 'Product Slug',
             type: 'slug',
             options: {
                 source: 'name',
@@ -32,9 +37,22 @@ export default {
             type: 'number'
         },
         {
-            name: 'details',
-            title: 'Details',
-            type: 'string',
+            name: 'quantity',
+            title: 'Quantity',
+            type: 'number'
+        },
+        {
+            name: 'category',
+            title: 'Product Category',
+            type: 'reference',
+            to: [
+                {type: 'category'}
+            ]
+        },
+        {
+            name: 'description',
+            title: 'Description of Product',
+            type: 'text',
         }
     ]
 }

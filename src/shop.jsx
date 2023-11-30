@@ -1,6 +1,5 @@
 import React from 'react'
 import { Connect, Navbar, ProductList } from './components'
-// import ProductList from './components/ProductList'
 
 const Shop = () => {
   return (

@@ -3,6 +3,7 @@ import {styles} from '../style'
 import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 import { Link } from 'react-router-dom'
+import { FaShoppingBag } from "react-icons/fa";
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -33,8 +34,9 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='hidden md:block'>
+        <div className='hidden md:flex items-center gap-4'>
           <a href='#contact' className='inline-block rounded-md border-secondary hire-button  px-8 py-3 text-center font-medium text-white hover:bg-indigo-700'>Hire Me</a>
+          <FaShoppingBag className='text-[24px]' />
         </div>
 
         {/* icons */}
