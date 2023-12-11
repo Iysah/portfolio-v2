@@ -12,6 +12,7 @@ import NewArrivals from './Arrivals';
 import ProductList from './ProductList';
 import ProductDetails from './ProductDetails';
 import Related from './Related';
+import Cart from './Cart';
 
 export {
   Hero,
@@ -31,4 +32,5 @@ export {
   ProductList,
   ProductDetails,
   Related,
+  Cart,
 }

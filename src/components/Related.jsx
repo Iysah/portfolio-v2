@@ -8,7 +8,7 @@ export default function Related() {
   useEffect(() => {
     async function fetchData() {
       const query = `
-        *[_type=='product'][0...3]| order(_createdAt desc) {
+        *[_type=='product'][0...4]| order(_createdAt desc) {
           _id,
           name,
           price,
@@ -45,7 +45,7 @@ export default function Related() {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-secondary">
-                    <a href={`product/${product.slug}`}>
+                    <a href={`${product.slug}`}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}
                     </a>
