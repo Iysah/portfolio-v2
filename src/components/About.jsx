@@ -37,7 +37,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='text-secondary font-[16px] mt-4 max-w-3xl mx-auto leading-[30px]'
       >
-        Hello stranger! 👋, my name is Iysah and I am a frontend engineer, passionate  about digital products that help people experience everyday life, not endure it.
+        Hello stranger! 👋, my name is Iysah and I am a frontend engineer and content creator, passionate about digital products that help people experience everyday life, not endure it.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -31,17 +31,21 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
+      id: "#about",
       title: "About",
     },
     {
-      id: "work",
+      id: "#work",
       title: "Work",
     },
     {
-      id: "connect",
-      title: "Connect",
+      id: "/shop",
+      title: "Shop",
     },
+    {
+      id: "/podcast",
+      title: "Podcast",
+    }
   ];
   
   const services = [
@@ -50,7 +54,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
@@ -159,18 +163,18 @@ import {
         
       ],
     },
-    {
-      title: "Training Manager",
-      company_name: "Symbolic Digital Concept",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Created effective instructional materials, including lesson plans, learning resources, and assessments. I employed instructional design principles to enhance the learning experience.",
-        "Monitored and evaluated the quality of teaching and learning within the organization. This includes assessing instructors, course materials, and overall program effectiveness",
-        "Oversaw a team of instructors, mentors, and support staff. Also coordinated training schedules, assignments, and professional development for their team.",
-      ],
-    },
+    // {
+    //   title: "Training Manager",
+    //   company_name: "Symbolic Digital Concept",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Created effective instructional materials, including lesson plans, learning resources, and assessments. I employed instructional design principles to enhance the learning experience.",
+    //     "Monitored and evaluated the quality of teaching and learning within the organization. This includes assessing instructors, course materials, and overall program effectiveness",
+    //     "Oversaw a team of instructors, mentors, and support staff. Also coordinated training schedules, assignments, and professional development for their team.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -293,5 +297,48 @@ import {
     },
 
   ];
+
+  const podcasts = [
+    {
+      name: "The Turing Way Podcast",
+      description: "",
+      tags: [
+        {
+          name: '',
+          color: '',
+        },
+        {
+          name: '',
+          color: '',
+        },
+        {
+          name: '',
+          color: '',
+        },
+      ],
+      spotify_link: "",
+      apple_podcasts_link: "",
+    },
+    {
+      name: "The Turing Way Podcast",
+      description: "",
+      tags: [
+        {
+          name: '',
+          color: '',
+        },
+        {
+          name: '',
+          color: '',
+        },
+        {
+          name: '',
+          color: '',
+        },
+      ],
+      spotify_link: "",
+      apple_podcasts_link: "",
+    },
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, podcasts };
