@@ -3,7 +3,7 @@ import { urlFor } from '../lib/client'
 
 export default function ImgGallery({ image }) {
     const imagesArray = Array.isArray(image) ? image : [];
-    const [bigImage, setBigImage] = useState(imagesArray.length > 0 ? imagesArray[0] : null)
+    const [bigImage, setBigImage] = useState(imagesArray.length > 0 ? imagesArray[0]||imagesArray[1] : null)
     // console.log(image)
 
     function handleSmallImageClick(imag) {

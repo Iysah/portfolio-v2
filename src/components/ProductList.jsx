@@ -112,7 +112,7 @@ export default function ProductList() {
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                 </div>
-                <p className="text-sm font-medium text-secondary">₦{product.price}</p>
+                <p className="text-sm font-medium text-secondary">₦{product.price}.99</p>
               </div>
             </div>
           ))}

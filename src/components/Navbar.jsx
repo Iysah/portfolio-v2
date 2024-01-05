@@ -4,8 +4,11 @@ import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 import { Link } from 'react-router-dom'
 import { FaShoppingBag } from "react-icons/fa";
+import Cart from './Cart'
+import { useStateContext } from '../../context/StateContext'
 
 const Navbar = () => {
+  const {showCart, setShowCart, totalQuantities} = useStateContext();
   const [active, setActive] = useState('')
   const [toggle, setToggle] = useState(false)
 
@@ -36,8 +39,13 @@ const Navbar = () => {
 
         <div className='hidden md:flex items-center gap-4'>
           <a href='#contact' className='inline-block rounded-md border-secondary hire-button  px-8 py-3 text-center font-medium text-white hover:bg-indigo-700'>Hire Me</a>
-          <FaShoppingBag className='text-[24px]' />
+          <button type='button' className='cart-icon text-secondary' onClick={() => setShowCart(true)}>
+            <FaShoppingBag className='text-[24px]' />
+            <span className='cart-item-qty'>{totalQuantities}</span>
+          </button>
         </div>
+
+        {showCart && <Cart />}
 
         {/* icons */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
